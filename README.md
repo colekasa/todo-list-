@@ -5,5 +5,5 @@ This application is focused on allowing you to save a chore or task that you nee
 
 Please play with some of the tools that I have provided and if there is any constructive feedback that you can provide I would love to hear it. 
  
-![Alt text](../../../work-day-scheduler.png)
+![Alt text](Assets/work-day-scheduler.png)
 
