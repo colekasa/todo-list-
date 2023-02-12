@@ -3,6 +3,8 @@ $(document).ready (function() {
 var today = dayjs()
 $('#currentDay').text(today.format('MMM D, YYYY, h:mm'));
 
+
+
 var savBtn = document.querySelector('.saveBtn')
    
   $(".time-block").each(function(){
@@ -19,6 +21,13 @@ var savBtn = document.querySelector('.saveBtn')
       $(this).addClass("future");
   }
   })
+
+  for (var i = 8; i < 18; i++){
+    var input = localStorage.getItem(i.toString())
+    var ID=  i.toString()
+    var textAreaNew = $("#"+ID).children(".description")
+    textAreaNew.val(input)
+  }
 
   $("button").on("click", function(){
 
